@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.jeyzer</groupId>
 	<artifactId>jeyzer-demo-shared</artifactId>
 	<packaging>jar</packaging>
-	<version>2.0-SNAPSHOT</version>
+	<version>2.0</version>
 	<name>Jeyzer Demo Shared Library</name>
 	<url>https://github.com/jeyzer-community/jeyzer-demo-shared</url>
 	<description>The Jeyzer Demo Shared library. More info at https://jeyzer.org/demos/</description>
@@ -120,7 +119,7 @@
 							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
 						</manifest>
 						<manifestEntries>
-              				<Built-By></Built-By>
+              				<Built-By />
               				<Implementation-Build>${buildNumber}</Implementation-Build>
               				<Implementation-ArtifactId>${project.artifactId}</Implementation-ArtifactId>
               				<!--  Used for the dynamic loading of Jeyzer profiles (patterns, rules..) at analysis time -->
@@ -233,7 +232,7 @@
 		<url>https://github.com/jeyzer-community/jeyzer-demo-shared</url>
 		<connection>scm:git:ssh://git@github.com/jeyzer-community/jeyzer-demo-shared.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/jeyzer-community/jeyzer-demo-shared.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>jeyzer-demo-shared-2.0</tag>
 	</scm>
 	
 	<distributionManagement>
