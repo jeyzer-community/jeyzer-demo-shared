@@ -7,6 +7,6 @@
 	<!-- Repositories get referenced by their id in jeyzer repo urls. Id must be unique -->
 	<!-- Both remote and local can reference either a http url or system path (like a shared drive path) -->
 
-	<repository id="demo" remote="https://jeyzer.org/repositories/demo/shared" local="${JEYZER_DEMO_SHARED_PROFILES_DIR}" local_first="true"/>
+	<repository id="demo" remote="https://raw.githubusercontent.com/jeyzer-repo/demo/master/shared" local="${JEYZER_DEMO_SHARED_PROFILES_DIR}" local_first="true"/>
 
 </repositories>
