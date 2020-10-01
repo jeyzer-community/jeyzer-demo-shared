@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<profile name="Demo-shared" version="${project.version}">
+<profile name="Demo-shared" version="LATEST">
 
 		<patterns>
 			<!-- Shared library relies fully on the Jeyzer annotations -->
