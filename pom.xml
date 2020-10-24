@@ -160,7 +160,8 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- Update the project Jeyzer profiles -->
+			<!-- Update the project Jeyzer shared patterns (test purpose only) -->
+			<!-- As an alternative, it could directly override the jeyzer-demo-shared_patterns.xml in the demo repository -->
 			<plugin>
 				<groupId>org.jeyzer.build</groupId>
 				<artifactId>jeyzer-maven-plugin</artifactId>
@@ -170,7 +171,7 @@
 						<id>jeyzer-demo-shared</id>
 						<phase>package</phase>
 						<configuration>
-							<sourcePatterns>${basedir}/src/main/config/profiles/shared/jeyzer-demo-shared/jeyzer-demo-shared_patterns.xml</sourcePatterns>
+							<sourcePatterns>${basedir}/src/test/config/profiles/shared/jeyzer-demo-shared/jeyzer-demo-shared_patterns.xml</sourcePatterns>
 							<!-- newPatternEntries>${project.build.directory}/generated-sources/jeyzer/new_pattern_entries.xml</newPatternEntries>
 							<targetPatternsDir>${project.build.directory}/generated-sources/jeyzer</targetPatternsDir> -->
 							<targetPatternsName>jeyzer-demo-shared_patterns</targetPatternsName>

@@ -1,0 +1,1 @@
+Demo shared profiles are stored in the Jeyzer demo repository on https://github.com/jeyzer-repo/demo/shared
