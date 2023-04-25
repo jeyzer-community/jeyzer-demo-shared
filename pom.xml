@@ -4,7 +4,7 @@
 	<groupId>org.jeyzer</groupId>
 	<artifactId>jeyzer-demo-shared</artifactId>
 	<packaging>jar</packaging>
-	<version>3.0-SNAPSHOT</version>
+	<version>3.0</version>
 	<name>Jeyzer Demo Shared Library</name>
 	<url>https://github.com/jeyzer-community/jeyzer-demo-shared</url>
 	<description>The Jeyzer Demo Shared library. More info at https://jeyzer.org/demos/</description>
@@ -268,7 +268,7 @@
 		<url>https://github.com/jeyzer-community/jeyzer-demo-shared</url>
 		<connection>scm:git:ssh://git@github.com/jeyzer-community/jeyzer-demo-shared.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/jeyzer-community/jeyzer-demo-shared.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>jeyzer-demo-shared-3.0</tag>
 	</scm>
 	
 	<distributionManagement>
